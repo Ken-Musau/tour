@@ -22,8 +22,8 @@ function App() {
         const data = await resp.json();
         setCities(data);
         // setIsLoading(false);
-      } catch (err) {
-        alert("There was an error loading data... ", err);
+      } catch {
+        alert("There was an error loading data... ");
       } finally {
         setIsLoading(false);
       }
@@ -41,11 +41,11 @@ function App() {
         <Route path="app" element={<AppLayout />}>
           <Route
             index
-            element={<CityList cities={cities} loading={isLoading} />}
+            element={<CityList cities={cities} isLoading={isLoading} />}
           />
           <Route
             path="cities"
-            element={<CityList cities={cities} loading={isLoading} />}
+            element={<CityList cities={cities} isLoading={isLoading} />}
           />
           <Route path="countries" element={<p>Countries</p>} />
           <Route path="form" element={<p>Form</p>} />
