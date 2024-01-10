@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Map() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [mapPosition, setMapPosition] = useState([0.0236, 37.9062]);
   const navigate = useNavigate();
 
   const lat = searchParams.get("lat");
@@ -20,12 +20,12 @@ function Map() {
       <MapContainer
         center={mapPosition}
         zoom={13}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
         className={styles.map}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
         <Marker position={mapPosition}>
           <Popup>
