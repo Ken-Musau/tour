@@ -28,6 +28,8 @@ function Form() {
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
 
+  console.log(isLoadingGeocoding, lat, lng, country, setCountry);
+
   useEffect(() => {
     async function fetchCityData() {
       try {
