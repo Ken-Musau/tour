@@ -44,7 +44,7 @@ function Map() {
       <MapContainer
         center={mapPosition}
         // center={[mapLat, mapLng]}
-        zoom={6}
+        zoom={10}
         scrollWheelZoom={true}
         className={styles.map}
       >

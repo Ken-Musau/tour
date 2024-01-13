@@ -1,3 +1,52 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "cityName": "Ruiru",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:33:20.755Z",
+      "notes": "",
+      "position": {
+        "lat": "-1.147651216586249",
+        "lng": "36.96212768554688"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Gitothua ",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:33:34.903Z",
+      "notes": "",
+      "position": {
+        "lat": "-1.1521135135861749",
+        "lng": "36.90170288085938"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Kilimani ",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:33:44.983Z",
+      "notes": "",
+      "position": {
+        "lat": "-1.282546686897245",
+        "lng": "36.81690216064454"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Ol Kalou",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:34:26.126Z",
+      "notes": "",
+      "position": {
+        "lat": "-0.7909904981540058",
+        "lng": "36.54739379882813"
+      },
+      "id": 6
+    }
+  ]
 }
