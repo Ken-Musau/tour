@@ -12,6 +12,7 @@ import Spinner from "./Spinner";
 
 import { useUrlPostion } from "../hooks/useUrlPostion";
 import { useCities } from "../contexts/CitiesContext";
+import { useNavigate } from "react-router-dom";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -34,7 +35,9 @@ function Form() {
   const [emoji, setEmoji] = useState("");
   const [geoCodingError, setGeoCodingError] = useState("");
 
-  const { createCity } = useCities();
+  const navigate = useNavigate();
+
+  const { createCity, isLoading } = useCities();
   console.log(URL);
   useEffect(() => {
     async function fetchCityData() {
@@ -51,7 +54,7 @@ function Form() {
           throw new Error(
             "That doesn't seem to be a city. Click somewhere else😅"
           );
-        setCityName(data.city || data.locality || "");
+        setCityName(data.locality || "");
         setCountry(data.countryName);
         setEmoji(convertToEmoji(data.countryCode));
       } catch (err) {
@@ -64,7 +67,7 @@ function Form() {
     fetchCityData();
   }, [lat, lng]);
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
 
     if (!cityName || !date) return;
@@ -77,7 +80,8 @@ function Form() {
       position: { lat, lng },
     };
 
-    createCity(newCity);
+    await createCity(newCity);
+    navigate("/app/cities");
   }
 
   if (isLoadingGeocoding) return <Spinner />;
@@ -85,7 +89,10 @@ function Form() {
 
   if (geoCodingError) return <Message message={geoCodingError} />;
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form
+      className={`${styles.form} ${isLoading ? styles.loading : ""}`}
+      onSubmit={handleSubmit}
+    >
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
         <input

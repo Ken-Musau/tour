@@ -1,100 +1,76 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 9844319
-    },
-    {
-      "cityName": "Homa Bay",
+      "cityName": "Starehe",
       "country": "Kenya",
       "emoji": "🇰🇪",
-      "date": "2024-01-13T17:10:22.190Z",
-      "notes": "text",
-      "position": {
-        "lat": "-0.615222552406841",
-        "lng": "34.21142578125001"
-      },
-      "id": 73930386
-    },
-    {
-      "cityName": "Monduli",
-      "country": "Tanzania, the United Republic of",
-      "emoji": "🇹🇿",
-      "date": "2024-01-13T17:14:06.164Z",
+      "date": "2024-01-13T18:27:26.584Z",
       "notes": "",
       "position": {
-        "lat": "-3.228271011252635",
-        "lng": "36.23291015625001"
+        "lat": "-1.2798007914843985",
+        "lng": "36.82342529296876"
       },
-      "id": 73930387
+      "id": 1
     },
     {
-      "cityName": "Bahi",
-      "country": "Tanzania, the United Republic of",
-      "emoji": "🇹🇿",
-      "date": "2024-01-13T17:14:06.164Z",
-      "notes": "",
-      "position": {
-        "lat": "-6.708253968671543",
-        "lng": "35.39794921875001"
-      },
-      "id": 73930388
-    },
-    {
-      "cityName": "Kitui",
+      "cityName": "Kitengela ward",
       "country": "Kenya",
       "emoji": "🇰🇪",
-      "date": "2024-01-13T17:17:56.717Z",
-      "notes": "test atain",
+      "date": "2024-01-13T18:27:46.063Z",
+      "notes": "",
       "position": {
-        "lat": "-1.0765967983063982",
-        "lng": "38.10058593750001"
+        "lat": "-1.475094893151534",
+        "lng": "36.96049690246583"
       },
-      "id": 73930389
+      "id": 4
     },
     {
-      "cityName": "Diinsoor",
-      "country": "Somalia",
-      "emoji": "🇸🇴",
-      "date": "2024-01-13T17:18:08.087Z",
-      "notes": "baal",
+      "cityName": "Athi River ward",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:27:55.687Z",
+      "notes": "",
       "position": {
-        "lat": "2.3723687086440504",
-        "lng": "42.890625"
+        "lat": "-1.4678016903965212",
+        "lng": "36.97311401367188"
       },
-      "id": 73930390
+      "id": 5
+    },
+    {
+      "cityName": "Miritini ward",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:28:07.079Z",
+      "notes": "",
+      "position": {
+        "lat": "-4.010849855147802",
+        "lng": "39.60159301757813"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Mvita",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:28:11.238Z",
+      "notes": "",
+      "position": {
+        "lat": "-4.049549389992287",
+        "lng": "39.66304779052735"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Airport ward",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T18:28:24.703Z",
+      "notes": "",
+      "position": {
+        "lat": "-4.024977111079831",
+        "lng": "39.60768699645997"
+      },
+      "id": 8
     }
   ]
 }
