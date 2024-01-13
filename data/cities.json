@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": 9844319
+    },
+    {
+      "cityName": "Homa Bay",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T17:10:22.190Z",
+      "notes": "text",
+      "position": {
+        "lat": "-0.615222552406841",
+        "lng": "34.21142578125001"
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Monduli",
+      "country": "Tanzania, the United Republic of",
+      "emoji": "🇹🇿",
+      "date": "2024-01-13T17:14:06.164Z",
+      "notes": "",
+      "position": {
+        "lat": "-3.228271011252635",
+        "lng": "36.23291015625001"
+      },
+      "id": 73930387
+    },
+    {
+      "cityName": "Bahi",
+      "country": "Tanzania, the United Republic of",
+      "emoji": "🇹🇿",
+      "date": "2024-01-13T17:14:06.164Z",
+      "notes": "",
+      "position": {
+        "lat": "-6.708253968671543",
+        "lng": "35.39794921875001"
+      },
+      "id": 73930388
+    },
+    {
+      "cityName": "Kitui",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2024-01-13T17:17:56.717Z",
+      "notes": "test atain",
+      "position": {
+        "lat": "-1.0765967983063982",
+        "lng": "38.10058593750001"
+      },
+      "id": 73930389
+    },
+    {
+      "cityName": "Diinsoor",
+      "country": "Somalia",
+      "emoji": "🇸🇴",
+      "date": "2024-01-13T17:18:08.087Z",
+      "notes": "baal",
+      "position": {
+        "lat": "2.3723687086440504",
+        "lng": "42.890625"
+      },
+      "id": 73930390
     }
   ]
 }
