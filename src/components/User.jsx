@@ -10,11 +10,12 @@ import styles from "./User.module.css";
 // };
 
 function User() {
-  const { user } = useAuth();
+  const { user, logout } = useAuth();
   const navigate = useNavigate();
   // const user = FAKE_USER;
 
   function handleClick() {
+    logout();
     navigate("/");
   }
 
