@@ -1,28 +1,3 @@
 {
-  "cities": [
-    {
-      "cityName": "Imenti Central",
-      "country": "Kenya",
-      "emoji": "🇰🇪",
-      "date": "2024-01-14T13:26:46.023Z",
-      "notes": "",
-      "position": {
-        "lat": "0",
-        "lng": "37.50457763671876"
-      },
-      "id": 8
-    },
-    {
-      "cityName": "Tigania West",
-      "country": "Kenya",
-      "emoji": "🇰🇪",
-      "date": "2024-01-14T13:27:04.101Z",
-      "notes": "",
-      "position": {
-        "lat": "0.09475703688266642",
-        "lng": "37.80944824218751"
-      },
-      "id": 9
-    }
-  ]
+  "cities": []
 }
